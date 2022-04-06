@@ -1,0 +1,5 @@
+package com.javatpoint.server.main;
+
+public class SwaggerConfig {
+
+}
