@@ -26,6 +26,17 @@ public class RestfulWebServicesApplication
 		localResolver.setDefaultLocale(Locale.US);
 		return localResolver;
 	}
+	
+	/* this is for spring actuator. didnot work due to version mismatch of spring boot and spring-data-rest-hal-explorer,
+ 	<dependency>  
+		<groupId>org.springframework.boot</groupId>  
+		<artifactId>spring-boot-starter-actuator</artifactId>  
+	</dependency>  
+	<dependency>
+		<groupId>org.springframework.data</groupId>
+		<artifactId>spring-data-rest-hal-explorer</artifactId>
+	</dependency>
+ */
 	 
 	//this bean is not required as spring.messages.basename=messages is used in application.properties 
 //	@Bean

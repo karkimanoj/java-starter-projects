@@ -1,0 +1,16 @@
+package javatpoint.server.main.Filtering;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class FilteringController 
+{
+
+	@GetMapping("/filtering")
+	public SomeBean retrieveSomeBean()
+	{
+		return new SomeBean("suman", "9867544567", "5000usd");
+	}
+	
+}

@@ -1,0 +1,8 @@
+package javatpoint.server.main.Filtering;
+
+public class SomeBean 
+{
+	public String name;
+	public String Phone;
+	public String salary;
+}

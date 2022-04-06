@@ -1,0 +1,11 @@
+package javatpoint.server.main.Filtering;
+
+public class FilteringController 
+{
+
+	public SomeBean retrieveSomeBean()
+	{
+		return new SomeBean("suman", "9867544567", "5000usd");
+	}
+	
+}

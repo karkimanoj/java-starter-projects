@@ -1,0 +1,64 @@
+package javatpoint.server.main.Filtering;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+public class SomeBean 
+{
+	public String name;
+	public String phone;
+	
+	@JsonIgnore
+	public String salary;
+	
+	public SomeBean(String name, String phone, String salary) 
+	{
+		super();
+		this.name = name;
+		this.phone = phone;
+		this.salary = salary;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	/**
+	 * @return the phone
+	 */
+	public String getPhone() {
+		return phone;
+	}
+
+	/**
+	 * @param phone the phone to set
+	 */
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	/**
+	 * @return the salary
+	 */
+	public String getSalary() {
+		return salary;
+	}
+
+	/**
+	 * @param salary the salary to set
+	 */
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+	
+	
+}
