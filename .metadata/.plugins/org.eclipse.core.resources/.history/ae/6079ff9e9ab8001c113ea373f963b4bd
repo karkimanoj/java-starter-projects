@@ -1,0 +1,6 @@
+server.error.include-stacktrace=never
+spring.messages.basename=messages
+spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER 
+
+spring.security.user.name=user@mail.com
+spring.security.user.password=admin@1
